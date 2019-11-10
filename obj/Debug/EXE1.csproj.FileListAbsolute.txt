@@ -1,0 +1,9 @@
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\bin\EXE1.dll.config
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\bin\EXE1.dll
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\bin\EXE1.pdb
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\obj\Debug\EXE1.csprojResolveAssemblyReference.cache
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\obj\Debug\EXE1.csproj.CoreCompileInputs.cache
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\obj\Debug\EXE1.dll
+C:\Users\almog\Desktop\אלמוג לימודים\שנה ד\סמסטר א\פיתוח אפליקציות סלולר\EXE1\EXE1\EXE1\obj\Debug\EXE1.pdb

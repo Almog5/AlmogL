@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Classes.js"></script>
+    <style>
+        img {
+        /*height:100px;
+        width:100px;*/
+        border-radius:50%;
+        }
+    </style>
+
+    <script type="text/javascript">
+      
+        var UserArr = new MainApp(UsersAr);
+         var MainSTR = ` <div class="container">
+        <h1>Choose partner gender:</h1>
+        <input type="radio" id="male" name="gender" value="male"> Male<br>
+        <input type="radio" id="female" name="gender" value="female"> Female<br>
+        <hr />
+        <h1>Choose partner age:</h1>
+        <h2>between</h2>
+        <input type="text" id="min" />
+        <h2>and</h2>
+        <input type="text" id="max" />
+        <hr />
+        <input type="button" id="find" onclick="find()" value="find" />
+        </div>`;
+
+         function find() {
+             var gender = document.querySelector('input[name="gender"]:checked').value;
+             var min = document.getElementById('min').value;
+             var max = document.getElementById('max').value;
+             UserArr.Filter(gender, min, max);
+             document.getElementById('Main').innerHTML = "";
+             document.getElementById('Main').innerHTML = UserArr.Render();
+         }
+
+         function moove() {
+             console.log("111111")
+             UserArr.Next();
+             $("body").html("");
+             console.log(UserArr.Render());
+             $("body").append(UserArr.Render());
+             
+         }
+
+    </script>
+
+    <title></title>
+</head>
+<body id="Main" onload="init()">
+    
+        <!--<div class="container">
+            <h1>Choose partner gender:</h1>
+            <input type="radio" id="male" name="gender" value="male"> Male<br>
+            <input type="radio" id="female" name="gender" value="female"> Female<br>
+            <hr />
+            <h1>Choose partner age:</h1>
+            <h2>between</h2>
+            <input type="text" id="min" />
+            <h2>and</h2>
+            <input type="text" id="max" />
+            <hr />
+            <input type="button" id="find" onclick="find()" value="find" />
+        </div>-->-->
+
+    </body>
+</html>
